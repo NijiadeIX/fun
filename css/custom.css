@@ -1,0 +1,140 @@
+
+.navbar {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	border-radius: 0;
+	background-color: rgba(0,0,0,.6);
+	padding: 0;
+	margin: 0;
+}
+
+.nav-home {
+	float: left;
+	width: 600px;
+	height: 100%;
+}
+
+.nav-home a {
+	float: left;
+	font-size: 18px;
+	padding: 15px 15px 15px 15px;
+	text-decoration: none;
+	line-height: 20px;
+	color: #FFF;
+}
+
+.nav-sign-in {
+	float: right;
+	width: 100px;
+	height: 100%;
+}
+
+.nav-sign-in a {
+	float:right;
+	padding: 15px 15px 15px 15px;
+	text-decoration: none;
+	line-height: 20px;
+	font-size: 18px;
+	color: #FFF;
+}
+
+.search-form {
+	float: left;
+	padding: 6px 0px 6px 0px;
+	height: 100%;
+	width: 250px;
+}
+
+.search-input {
+	float: left;
+	padding: 0px 10px 0px 10px;
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+	border:0 solid;
+	border-radius: 0;
+	background-color: #FFF;
+	opacity: 1;
+}
+
+.search-input:focus{
+	border: 0 solid;
+	outline: none;
+}
+
+.page {
+	width: 1260px;
+	margin-top: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+
+.grid {
+	float: left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.carousel-block {
+	float: left;
+	width: 940px;
+	height: 300px;
+	margin-right: 20px;
+}
+
+.block-1 {
+	float: left;
+	width: 300px;
+	height: 300px;
+}
+
+.cg-block {
+	float: left;
+	width: 300px;
+	height: 400px;
+	margin-right: 20px;
+}
+
+.cg-block-r {
+	float: left;
+	width: 300px;
+	height: 400px;
+}
+
+.back-2-top {
+	position: fixed;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 60px;
+	height: 40px;
+	bottom: 30px;
+	right: 15px;
+}
+
+.back-2-top span {
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.left-fixed-menu {
+	position: fixed;
+	left: 0;
+	top: 250px;
+	width: 70px;
+	height: 300px;
+}
+
+/**
+ * color
+ */
+.bg-color-yellow { background-color: #ffc40d; }
+.bg-color-blue { background-color: #2d89ef; }
+.bg-color-crean { background-color: #f1f1f1; }
+.bg-color-blueLight { background-color: #eff4ff; }
+.bg-color-red { background-color: #b91d47; }
+.bg-color-green { background-color: #00a300; }
