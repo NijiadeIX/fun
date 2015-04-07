@@ -3,12 +3,11 @@
 	<head>
 		<title>FUN</title>
 		
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="./css/bootstrap.css">
-		<link rel="stylesheet" href="./css/bootstrap-theme.css">
-		<link rel="stylesheet" href="./css/custom.css">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/style.css">
 		<script src="./js/jquery-2.1.3.min.js"></script>
-		<script src="./js/bootstrap.min.js"></script>
+	    <script src="./js/bootstrap.js"></script> 
+		<script src="./js/xx.js"></script>
 	</head>
 
 	<body>
@@ -33,12 +32,42 @@
 		<div class="page">
 			<!-- 第一行 -->
 			<div class="grid">
-				<div class="carousel-block bg-color-blueLight">
-					<div class="carousel">
+				<div class="carousel-block">
+					<div class="carousel slide" id='carousel' data-ride="carousel">
+						
+						<!-- 核心内容 -->
+						<div class="carousel-inner" role='listbox'>
+							<div class="item active"><img src="http://img1.gtimg.com/v/pics/hv1/238/39/1805/117380308.jpg?max_age=604800"/></div>
+							<div class="item"><img src="http://i.gtimg.cn/qqlive/images/20150403/i1428044228_1.jpg?max_age=604800"/></div>
+							<div class="item"><img src="http://ugc.qpic.cn/tv/0/739060_1680504/0?max_age=604800"/></div>
+						</div>
+						
+						<!-- 左滑动 -->
+						<div class="carousel-ctrl-left">
+						</div>
+						
+						<!-- 右滑动 -->
+						<div class="carousel-ctrl-right">
+						</div>
+
+						<!-- 序号标示符 -->
+						<ul class="carousel-indicators">
+							<li class="indicator active" data-target='#carousel' data-slide-to='0'>
+								<img src="http://img1.gtimg.com/v/pics/hv1/238/39/1805/117380308.jpg?max_age=604800"/>
+							</li>
+							<li class="indicator" data-target='#carousel' data-slide-to='1'>
+								<img src="http://i.gtimg.cn/qqlive/images/20150403/i1428044228_1.jpg?max_age=604800"/>
+							</li>
+							<li class="indicator" data-target='#carousel' data-slide-to='2'>
+								<img src="http://ugc.qpic.cn/tv/0/739060_1680504/0?max_age=604800"/>
+							</li>
+						</ul>
+
 					</div>
 				</div>
 				
 				<div class="block-1 bg-color-blue">
+					<p>周翔是个大逗比</p>
 				</div>
 			</div>
 			
@@ -76,13 +105,23 @@
 		</div>
 		
 		<!-- 隐藏在左边的菜单 -->
-		<div class="left-fixed-menu bg-color-green">
+		<div class="left-fixed-menu bg-color-blue">
 		</div>
 		
 		<!-- 返回顶部的按钮 -->
 		<div class="back-2-top bg-color-red">
-			<span>TOP</span>
+			<a href="#top">TOP</a>
+		</div>
+		
+		<div class="sign-in-bg">
 		</div>
 
+		<div class="sign-in-box" action='#' methon='post'>
+			<form>
+				<input class='sign-in-username bg-color-blueLight' type='text' placeholder='username'></input>
+				<input class='sign-in-password bg-color-blueLight' type='password' placeholder='password'></input>
+				<input class='sign-in-btn bg-color-blueLight' type='submit' value='Sign in'></button>
+			</form>
+		</div>
 	</body>
 </html>
