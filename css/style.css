@@ -21,7 +21,7 @@ body {
 }
 
 
-.navbar {
+.xx_navbar {
 	position: fixed;
 	top: 0;
 	height: 50px;
@@ -34,13 +34,13 @@ body {
 	z-index: 1024;
 }
 
-.nav-home {
+.xx_nav-home {
 	float: left;
 	width: 600px;
 	height: 100%;
 }
 
-.nav-home a {
+.xx_nav-home a {
 	float: left;
 	font-size: 18px;
 	padding: 15px 15px 15px 15px;
@@ -49,13 +49,13 @@ body {
 	color: #FFF;
 }
 
-.nav-sign-in {
+.xx_nav-sign-in {
 	float: right;
 	width: 100px;
 	height: 100%;
 }
 
-.nav-sign-in a {
+.xx_nav-sign-in a {
 	float:right;
 	padding: 15px 15px 15px 15px;
 	text-decoration: none;
@@ -64,7 +64,7 @@ body {
 	color: #FFF;
 }
 
-.search-form {
+.xx_search-form {
 	position: absolute;
 	height: 100%;
 	width: 250px;
@@ -74,7 +74,7 @@ body {
 
 }
 
-.search-input {
+.xx_search-input {
 	float: left;
 	padding: 0px 10px 0px 10px;
 	height: 100%;
@@ -86,12 +86,12 @@ body {
 	opacity: 1;
 }
 
-.search-input:focus{
+.xx_search-input:focus{
 	border: 0 solid;
 	outline: none;
 }
 
-.page {
+.xx_page {
 	width: 1260px;
 	margin-top: 70px;
 	margin-left: auto;
@@ -99,40 +99,40 @@ body {
 	clear: both;
 }
 
-.grid {
+.xx_grid {
 	float: left;
 	width: 100%;
 	height: auto;
 	margin-bottom: 20px;
 }
 
-.carousel-block {
+.xx_carousel-block {
 	float: left;
 	width: 940px;
 	height: 300px;
 	margin-right: 20px;
 }
 
-.block-1 {
+.xx_block-1 {
 	float: left;
 	width: 300px;
 	height: 300px;
 }
 
-.cg-block {
+.xx_cg-block {
 	float: left;
 	width: 300px;
 	height: 400px;
 	margin-right: 20px;
 }
 
-.cg-block-r {
+.xx_cg-block-r {
 	float: left;
 	width: 300px;
 	height: 400px;
 }
 
-.back-2-top {
+.xx_back-2-top {
 	position: fixed;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -142,7 +142,7 @@ body {
 	right: 15px;
 }
 
-.back-2-top a {
+.xx_back-2-top a {
 	font-size: 20px;
 	line-height: 40px;
 	text-align: center;
@@ -150,7 +150,7 @@ body {
 	text-decoration: none;
 }
 
-.left-fixed-menu:hover {
+.xx_left-fixed-menu:hover {
 	position: fixed;
 	left: 0;
 	top: 250px;
@@ -158,7 +158,7 @@ body {
 	height: 300px;
 }
 
-.left-fixed-menu {
+.xx_left-fixed-menu {
 	position: fixed;
 	left: -50px;
 	top: 250px;
@@ -254,7 +254,7 @@ body {
   left: 100%;
 }
 
-.sign-in-bg {
+.xx_sign-in-bg {
 	display: none;
 	position: fixed;
 	width: 100%;
@@ -265,7 +265,7 @@ body {
 	z-index: 2047;
 }
 
-.sign-in-box {
+.xx_sign-in-box {
 	display: none;
 	position: fixed;
 	width: 400px;
@@ -278,7 +278,7 @@ body {
 	z-index: 2048;
 }
 
-.sign-in-box .sign-in-username {
+.xx_sign-in-box .xx_sign-in-username {
 	display: block;
 	position: absolute;
 	width: 60%;
@@ -295,7 +295,7 @@ body {
 	border-radius: 0;
 }
 
-.sign-in-box .sign-in-password {
+.xx_sign-in-box .xx_sign-in-password {
 	display: block;
 	position: absolute;
 	width: 60%;
@@ -312,7 +312,7 @@ body {
 	font-size: 15px;
 }
 
-.sign-in-btn {
+.xx_sign-in-btn {
 	display: block;
 	position: absolute;
 	width: 100px;
@@ -405,6 +405,10 @@ body {
 	background-color: #fff;
 }
 
+.carousel-indicators li {
+	text-indent: 0;
+}
+
 .indicator > img {
 	width: 100%;
 	height: 100%
@@ -413,7 +417,7 @@ body {
 	background-color: #b91d47;
 	border: 1px solid #ffc40d;
 }
-/*.carousel-left-control {
+.carousel-left-control {
 	width: 40px;
 	height: 40px;
 	font-family: 'Glyphicons Halflings';
@@ -426,19 +430,19 @@ body {
 	font-family: 'Glyphicons Halflings';
 	font-style: normal;
 }
-*/
+
 
 /**
  * icon
- */
+ 
 
 
 /**
  * color
  */
-.bg-color-yellow { background-color: #ffc40d; }
-.bg-color-blue { background-color: #2d89ef; }
-.bg-color-crean { background-color: #f1f1f1; }
-.bg-color-blueLight { background-color: #eff4ff; }
-.bg-color-red { background-color: #b91d47; }
-.bg-color-green { background-color: #00a300; }
+.xx_bg-color-yellow { background-color: #ffc40d; }
+.xx_bg-color-blue { background-color: #2d89ef; }
+.xx_bg-color-crean { background-color: #f1f1f1; }
+.xx_bg-color-blueLight { background-color: #eff4ff; }
+.xx_bg-color-red { background-color: #b91d47; }
+.xx_bg-color-green { background-color: #00a300; }
