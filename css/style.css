@@ -1,4 +1,4 @@
-html {
+/*html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -19,7 +19,7 @@ body {
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-
+*/
 
 .xx_navbar {
 	position: fixed;
@@ -55,6 +55,13 @@ body {
 	height: 100%;
 }
 
+.xx_nav-sign-up {
+	float: right;
+	width: 100px;
+	height: 100%;
+}
+
+.xx_nav-sign-up a,
 .xx_nav-sign-in a {
 	float:right;
 	padding: 15px 15px 15px 15px;
@@ -122,14 +129,26 @@ body {
 .xx_cg-block {
 	float: left;
 	width: 300px;
-	height: 400px;
+	height: 200px;
 	margin-right: 20px;
 }
 
 .xx_cg-block-r {
 	float: left;
 	width: 300px;
-	height: 400px;
+	height: 200px;
+}
+
+.xx_load-block {
+	float: left;
+	margin-left: 320px;
+	margin-right: 320px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 620px;
+	height: 30px;
+	text-align: center;
+	vertical-align: center;
 }
 
 .xx_back-2-top {
@@ -167,32 +186,32 @@ body {
 	transition: left .2s ease-out;
 }
 
-.carousel {
-	position: relative;
+#carousel {
+	/*position: relative;*/
 	width: 100%;
 	height: 100%;
 }
-.carousel-inner {
-	position: relative;
+#carousel .carousel-inner {
+	/*position: relative;*/
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
-.carousel-inner > .item {
-  position: relative;
+#carousel .carousel-inner > .item {
+  /*position: relative;*/
   width: 100%;
   height: 100%;
-  display: none;
+/*  display: none;
   -webkit-transition: .6s ease-in-out left;
        -o-transition: .6s ease-in-out left;
-          transition: .6s ease-in-out left;
+          transition: .6s ease-in-out left;*/
 }
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+#carousel .carousel-inner > .item > img,
+#carousel .carousel-inner > .item > a > img {
 	width: 100%;
 	height: 100%
 }
-@media all and (transform-3d), (-webkit-transform-3d) {
+/*@media all and (transform-3d), (-webkit-transform-3d) {
   .carousel-inner > .item {
     -webkit-transition: -webkit-transform .6s ease-in-out;
          -o-transition:      -o-transform .6s ease-in-out;
@@ -252,7 +271,7 @@ body {
 }
 .carousel-inner > .active.right {
   left: 100%;
-}
+}*/
 
 .xx_sign-in-bg {
 	display: none;
@@ -379,7 +398,7 @@ body {
 	height: 100%;
 }*/
 
-.carousel-indicators {
+#indicators {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -395,7 +414,7 @@ body {
 }
 
 
-.carousel-indicators .indicator {
+#indicators .indicator {
 	display: inline-block;
 	width: 80px;
 	height: 40px;
@@ -405,30 +424,21 @@ body {
 	background-color: #fff;
 }
 
-.carousel-indicators li {
+/*.carousel-indicators li {
+	text-indent: 0;
+}*/
+
+#indicators li {
 	text-indent: 0;
 }
 
-.indicator > img {
+#indicators .indicator > img {
 	width: 100%;
 	height: 100%
 }
-.carousel-indicators .active {
+#indicators .active {
 	background-color: #b91d47;
 	border: 1px solid #ffc40d;
-}
-.carousel-left-control {
-	width: 40px;
-	height: 40px;
-	font-family: 'Glyphicons Halflings';
-	font-style: normal;
-}
-
-.carousel-right-control {
-	width: 40px;
-	height: 40px;
-	font-family: 'Glyphicons Halflings';
-	font-style: normal;
 }
 
 
@@ -446,3 +456,4 @@ body {
 .xx_bg-color-blueLight { background-color: #eff4ff; }
 .xx_bg-color-red { background-color: #b91d47; }
 .xx_bg-color-green { background-color: #00a300; }
+.xx_bg-color-alpha-black {background-color: rgba(0,0,0,.7); }

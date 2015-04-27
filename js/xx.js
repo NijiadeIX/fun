@@ -1,13 +1,13 @@
 (function($) {
 	$(function () {
-		$('.sign-in-bg').click(function() {
-			$('.sign-in-bg').hide();
-			$('.sign-in-box').hide();
+		$('.xx_sign-in-bg').click(function() {
+			$('.xx_sign-in-bg').hide();
+			$('.xx_sign-in-box').hide();
 		});
 
-		$('.nav-sign-in').click(function(event) {
-			$('.sign-in-bg').show();
-			$('.sign-in-box').show();
+		$('.xx_nav-sign-in').click(function(event) {
+			$('.xx_sign-in-bg').show();
+			$('.xx_sign-in-box').show();
 		});
 
 	});
